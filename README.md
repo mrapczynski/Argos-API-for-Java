@@ -18,9 +18,9 @@ This sample is also available as the class edu.fhda.argos.tests.V3ReportRunner
 
 Executing reports from an Argos 3.x platform is really simple. Once you have configured a report to be enabled for API access, create an ArgosV3Report object in your application with the API key as part of the constructor. Configure your MAPS server, the referer for security, and then add optional parameters, or change the desired format from the default of PDF.
 
-java
+```java
 // Create a report object to get a PDF from Argos
-```ArgosV3Report myReport = new ArgosV3Report("RPPNAB4APA4I5DZMEUNWIURZY52YEF6CXU4DWHCAB25KV36U27MWFCEYXDXIZA7TWEBRC4VMNKWHM");
+ArgosV3Report myReport = new ArgosV3Report("RPPNAB4APA4I5DZMEUNWIURZY52YEF6CXU4DWHCAB25KV36U27MWFCEYXDXIZA7TWEBRC4VMNKWHM");
 myReport.setMAPSServer("YOUR_MAPS_SERVER");
 myReport.setMAPSReferrer("YOUR_REFERER");;
 myReport.addParameter("CourseTerm", "201232");
