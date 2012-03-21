@@ -4,7 +4,7 @@ This project presents an example implementation of the Argos API in Java. Using 
 
 You can use it in desktop applications to save files to disk, or you can write servlets, JSPs, or RESTful web services to execute reports and return the completed results to web clients.
 
-I encourage you to study the source code, and if you prefer to work in a different flavor of web middleware such as ASP.NET or Ruby, then do not hesitate to copy the logic exhibited here into your preferred programming language. I intend to keep this library maintained as the use of API and web services evolves within the Argos product.
+I encourage you to study the source code, and if you prefer to work in a different flavor of web middleware such as ASP.NET or Ruby, then do not hesitate to copy the logic exhibited here into your preferred programming language. I intend to keep this library maintained as the API abilities and features evolve within the Argos product.
 
 ## Dependencies
 
